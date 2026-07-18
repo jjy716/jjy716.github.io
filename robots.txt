@@ -1,0 +1,12 @@
+# robots.txt - 검색엔진 크롤러 지시사항
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+
+# Sitemap 위치
+Sitemap: https://jjy716.github.io
+
+# 크롤링 속도 제한 (선택사항)
+Crawl-delay: 1
